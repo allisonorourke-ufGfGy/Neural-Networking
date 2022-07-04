@@ -45,3 +45,4 @@ Increasing the number of hidden nodes in layer 1 (3 X number of input features).
 Increasing the number of hidden layers to include a 3rd. 
 Changing the activation functions: tried linear, tanh, sigmoid for a combination of hidden layers and output layer.
 ## Summary
+We were not able to build a model that reached the target of 75% accuracy so we would likely not be able to say this model is outperforming. I would not reccomend this model for other instiances and instead may reccomend one of the supervised machiene learning models. Since we are in a binary classification situation, we could use a supervised machine learning model such as the Random Forest Classifier to combine a multitude of decision trees to generate a classified output and evaluate its performance against our deep learning model.
