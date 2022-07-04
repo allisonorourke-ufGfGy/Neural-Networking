@@ -21,9 +21,18 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 
 ## Results
 ### Data Preprocessing
-* What variable(s) are considered the target(s) for your model?
+* What variable(s) are considered the target(s) for your model? For this analysis and model, the target is held in IS_SUCCESSFUL field.
 * What variable(s) are considered to be the features for your model?
-* What variable(s) are neither targets nor features, and should be removed from the input data?
+ORGANIZATION
+STATUS
+INCOME_AMT
+SPECIAL_CONSIDERATIONS
+ASK_AMT
+APPLICATION_TYPE
+AFFILIATION
+CLASSIFICATION
+USE_CASE
+* What variable(s) are neither targets nor features, and should be removed from the input data? NAME and EIN
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 * Were you able to achieve the target model performance?
