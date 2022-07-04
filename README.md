@@ -34,7 +34,14 @@ CLASSIFICATION,
 USE_CASE
 * What variable(s) are neither targets nor features, and should be removed from the input data? NAME and EIN
 ### Compiling, Training, and Evaluating the Model
-* How many neurons, layers, and activation functions did you select for your neural network model, and why?
-* Were you able to achieve the target model performance?
+* How many neurons, layers, and activation functions did you select for your neural network model, and why? This deep-learning neural network model is made of two hidden layers with 80 and 30 neurons respectively.
+The input data has 43 features and 25,724 samples.
+The output layer is made of a unique neuron as it is a binary classification.
+To speed up the training process, we are using the activation function ReLU for the hidden layers. As our output is a binary classification, Sigmoid is used on the output layer.
+For the compilation, the optimizer is adam and the loss function is binary_crossentropy.
+* Were you able to achieve the target model performance? No, the model accuracy was under 75% so it didn not satisfy the performance. It only reached about 51%.
 * What steps did you take to try and increase model performance?
+Increasing the number of hidden nodes in layer 1 (3 X number of input features). 
+Increasing the number of hidden layers to include a 3rd. 
+Changing the activation functions: tried linear, tanh, sigmoid for a combination of hidden layers and output layer.
 ## Summary
